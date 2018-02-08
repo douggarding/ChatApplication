@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style2.css" />
+</head>
+
+<body>
+
+    <!-- MAIN BOX -->
+    <div id="main">
+
+
+        <!-- CONTROL WINDOW -->
+        <div id="controls">
+            <!-- USER -->
+            <div class="subControl">
+                <form id="user">
+                    username:
+                    <input type="text">
+                    <br>
+                </form>
+            </div>
+            <!-- ROOM -->
+            <div class="subControl">
+                <form id="room">
+                    chat room:
+                    <input type="text">
+                    <br>
+                </form>
+            </div>
+            <!-- CONNECT TO ROOM BUTTON -->
+            <button type="button" onclick="connectToRoom()">Connect To Chat Room</button>
+        </div>
+
+
+        <!-- CENTRAL CHAT WINDOW-->
+        <div id="chatWindow">
+
+            <button type="button" onclick="sendMessageToRoom()">send</button>
+
+            <!-- TEXT INPUT -->
+            <div id="messageInput">
+                <form id="message">
+                    <input type="text" placeholder="Type message here">
+                </form>
+            </div>
+        </div>
+
+        <script type="text/javascript" src="clientCode.js"></script>
+        </script>
+
+
+    </div>
+    <!-- END MAIN -->
+</body>
+
+</html>
