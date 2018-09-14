@@ -1,0 +1,72 @@
+body{
+    background-color: rgb(38, 65, 112);
+    font-family: sans-serif;
+}
+
+#main{
+    background-color:rgb(95, 80, 230);
+    width: 900px;
+    min-height: 700px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#chatWindow{
+    background-color:#FCFFF5;
+    width: 650px; 
+    min-height: 650px;
+    margin-top: 20px;
+    padding: 10px 1% 10px 1%; /* top, right, buttom, left */
+    box-sizing: border-box; /* makes it so padding and margin are part of the width and height */
+    float: left;
+}
+
+#messageInput{
+    background-color: blue;
+    width: 100%;
+    bottom: 0px;
+}
+
+#controls{
+    background-color:rgb(189, 185, 240);
+    width: 250px;
+    height: 550px;
+    min-height: 650px;
+    margin-top: 20px;
+    padding: 10px; /* top, right, buttom, left */
+    box-sizing: border-box;
+    float: left;
+}
+
+div.subControl{
+    color: rgb(79, 66, 121);
+    min-height: 80px;
+    margin: 10px;
+    padding: 10px;
+    /* border: solid 1px rgb(133, 115, 182); */
+    box-sizing: border-box;
+}
+
+input {
+    width: 100%;
+    margin: 8px 0px; /* top-bottom, left-right */
+    padding: 12px 15px; /* top-bottom, left-right */
+    display: inline-block;
+    border: 1px solid #ccc;
+    outline: none; /* gets rid of blue highlight when selected */
+    bottom: 0px;
+    box-sizing: border-box;
+}
+
+
+
+
+/* Old stuff
+
+    / Sets position absolute to body, then shifts the left margin over by 50% of window,
+       then shift left margin over by half the width of the div so it's centered /
+       position: absolute;
+       left: 50%;
+       margin-left: -200px;
+
+*/

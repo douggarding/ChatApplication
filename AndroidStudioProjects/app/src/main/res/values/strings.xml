@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Chat Client</string>
+    <string name="login">Login</string>
+    <string name="send_message">Send</string>
+    <string name="enter_user">Username</string>
+    <string name="enter_room">Room Name</string>
+</resources>
